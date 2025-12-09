@@ -1,0 +1,42 @@
+export const blogPosts = [
+    {
+        id: 1,
+        titre: "Top 5 des smartphones à acheter en 2025",
+        extrait: "Découvrez les meilleurs smartphones du marché en 2025, classés selon leurs performances...",
+        contenu: "En 2025, les smartphones offrent des performances extraordinaires...",
+        image: "/images/blog/smartphones-2025.jpg",
+        date: "2025-01-12",
+    },
+    {
+        id: 2,
+        titre: "Comment choisir un PC portable pour travailler ?",
+        extrait: "Entre batterie, processeur, RAM et type d’écran, voici ce qu’il faut vraiment regarder...",
+        contenu: "Choisir un PC portable dépend de vos besoins : bureautique, programmation, design, gaming...",
+        image: "/images/blog/choisir-pc-portable.jpg",
+        date: "2025-02-05",
+    },
+    {
+        id: 3,
+        titre: "Les accessoires indispensables pour un setup gaming",
+        extrait: "Voici la liste des accessoires essentiels pour créer un setup gaming performant...",
+        contenu: "Pour un setup gaming optimal, il faut combiner performance et confort...",
+        image: "/images/blog/setup-gaming.jpg",
+        date: "2025-03-01",
+    },
+    {
+        id: 4,
+        titre: "Les drones en 2025 : quelles nouveautés ?",
+        extrait: "Les drones deviennent plus intelligents, plus rapides et plus accessibles qu’avant...",
+        contenu: "En 2025, les drones proposent des capteurs plus précis...",
+        image: "/images/blog/drones-2025.jpg",
+        date: "2025-04-10",
+    },
+    {
+        id: 5,
+        titre: "Pourquoi les montres connectées sont devenues incontournables",
+        extrait: "Les montres connectées ne cessent d'évoluer. Voici pourquoi elles sont aujourd'hui essentielles...",
+        contenu: "Les montres connectées permettent de surveiller sa santé, suivre ses activités sportives...",
+        image: "/images/blog/montres-connectees.jpg",
+        date: "2025-05-20",
+    },
+];
