@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Custom Color for Hover (Couleur Personnalisée) */
+  --custom-hover: #7c3aed; /* Violet-600 */
 }
 
 body {
@@ -12,15 +14,22 @@ body {
   color: var(--foreground);
 }
 
+/*
+  Question 2.3 Point 3: Animations au survol (hover)
+  avec vos couleurs personnalisées
+*/
 .nav-link {
   position: relative;
+  font-weight: 500;
+  color: #374151; /* Gray-700 */
   transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #2563eb;
+  color: var(--custom-hover); /* Using the custom color */
 }
 
+/* Underline Animation */
 .nav-link::after {
   content: '';
   position: absolute;
@@ -28,8 +37,8 @@ body {
   height: 2px;
   bottom: -2px;
   left: 0;
-  background-color: #2563eb;
-  transition: width 0.3s ease;
+  background-color: var(--custom-hover);
+  transition: width 0.3s ease-in-out;
 }
 
 .nav-link:hover::after {
